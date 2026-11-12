@@ -271,7 +271,6 @@ const P = [
  ['suzuki','Felipe Suzuki','dsk','Produto e Entrega','PM Regulatório','Regulatório, CADOC e gestão tarifária',''],
  ['cintra','Felipe Cintra','dsk','Produto e Entrega','PM Contábil','Classificação contábil, compliance e regulatórios',''],
  ['otavio','Otávio Araújo','dsk','Produto e Entrega','PM de Fluxo','Processos (BPM) e APIs; plataforma e integrações',''],
- ['messina','Marcello Messina','dsk','Produto e Entrega','Processos, Produtos e Sistemas','Grupo de POs e PMs',''],
  ['matheus','Matheus Manasses','dsk','Produto e Entrega','Configuração do Jira','Estrutura do Jira do programa',''],
  ['victor','Victor Mesquita','dsk','Arquitetura e Dados','Líder de Arquitetura','Decisões de arquitetura, integrações e Fórum de Arquitetura',''],
  ['sylvio','Sylvio Pereira','dsk','Arquitetura e Dados','Arquiteto de Soluções · Líder de Dados','Definição de dados, contábil e regulatório; Comitê de Dados',''],
@@ -307,7 +306,6 @@ const P = [
  ['jonatas','Jonatas Brisotti','tmq','Tecnologia e Desenvolvimento','Engenharia de Software','Desenvolvimento do canal; jornadas de cartões',''],
  ['lucas','Lucas Reis','tmq','Tecnologia e Desenvolvimento','Engenharia de Software','Desenvolvimento do canal',''],
  ['areeba','Areeba Motiwala','tmq','Tecnologia e Desenvolvimento','Engenharia de Software','Desenvolvimento do canal',''],
- ['stuart','Stuart Grisotto','tmq','Tecnologia e Desenvolvimento','Frente Digital','Time da Frente Digital',''],
  ['kaio','Kaio Tavares','tmq','Dados','Dados e APIs','Dados, APIs e RMDM',''],
  ['joaoa','João Antonio','tmq','Dados','Dados e Projetos','Apoio em dados e projetos',''],
 
@@ -431,7 +429,7 @@ const C = (id,nome,time,o)=>Object.assign({id,nome,time},o||DEF);
 const MAP = [
  {band:'Externo (cliente)',doms:[
   {nome:'Canais',caps:[
-    C('mobile','Mobile Banking',1,{n:['mario'],t:['vcosta'],e:[],c:['vgon','jonatas','lucas','areeba','stuart','t_ricardo']}),
+    C('mobile','Mobile Banking',1,{n:['mario'],t:['vcosta'],e:[],c:['vgon','jonatas','lucas','areeba','t_ricardo']}),
     C('ibk','Internet Banking',1,{n:['mario'],t:['vcosta'],e:[],c:['vgon','jonatas','lucas','t_ricardo']}),
     C('branch','Branch Assist, atendimento assistido na agência',1,{n:['mario'],t:['vcosta','victor'],e:[],c:['i_evelyn','i_hugo'],extra:true}),
     C('atm','ATM',1,{n:['mario','ulysses'],t:['pedro'],e:['arthur'],c:['c_evaldo','c_euna','c_natan']}),
